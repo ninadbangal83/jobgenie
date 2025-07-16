@@ -1,11 +1,5 @@
 import React, { useState } from "react";
-import {
-  Box,
-  Typography,
-  Paper,
-  Avatar,
-  useTheme,
-} from "@mui/material";
+import { Box, Typography, Paper, Avatar, useTheme } from "@mui/material";
 import axios from "axios";
 import JobMatches from "../JobMatches";
 import JobDetailModal from "../user/JobDetailModal";
@@ -71,7 +65,8 @@ const UserDashboard = () => {
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
-          backgroundColor: theme.palette.grey[100],
+          backgroundImage: "linear-gradient(to right, #1976d2, #42a5f5)",
+          color: "#fff",
           borderRadius: 2,
         }}
       >
@@ -80,7 +75,8 @@ const UserDashboard = () => {
             Empower Your Career
           </Typography>
           <Typography variant="subtitle1" color="text.secondary">
-            Upload your resume and discover jobs tailored to your skills — powered by AI.
+            Upload your resume and discover jobs tailored to your skills —
+            powered by AI.
           </Typography>
         </Box>
         <Box display="flex" alignItems="center" gap={2}>
