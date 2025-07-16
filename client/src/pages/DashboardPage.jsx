@@ -5,9 +5,10 @@ import UserDashboard from "../components/dashboard/UserDashboard";
 import AdminDashboard from "../components/dashboard/AdminDashboard";
 
 const DashboardPage = () => {
-  const role = getUserRole();
+  const isAdmin = getUserRole();
 
-  return role === "admin" ? <AdminDashboard /> : <UserDashboard />;
+  console.log(isAdmin)
+  return isAdmin === "true" ? <AdminDashboard /> : <UserDashboard />;
 };
 
 export default DashboardPage;

@@ -37,7 +37,7 @@ const AuthForm = ({ isLogin: initialLogin }) => {
         console.log(res.data)
         localStorage.setItem("token", res.data.token);
         localStorage.setItem("username", res.data.user.name);
-        localStorage.setItem("role", res.data.user.isAdmin);
+        localStorage.setItem("isAdmin", res.data.user.isAdmin);
         navigate("/home");
       } else {
         alert("Registration successful. Please login.");
