@@ -2,31 +2,193 @@
   {
     "title": "Frontend Developer",
     "company": "TechSoft",
-    "skills_required": ["React", "JavaScript", "HTML", "CSS"]
+    "skills_required": ["React", "JavaScript", "HTML", "CSS"],
+    "description": "Build modern UI using React and best frontend practices."
+  },
+  {
+    "title": "Junior Frontend Developer",
+    "company": "CodeNest",
+    "skills_required": ["HTML", "CSS", "JavaScript"],
+    "description": "Assist in UI development and bug fixes under senior guidance."
+  },
+  {
+    "title": "Senior Frontend Engineer",
+    "company": "PixelPro",
+    "skills_required": ["React", "TypeScript", "Redux", "Next.js"],
+    "description": "Lead frontend architecture and mentor junior developers."
+  },
+  {
+    "title": "Angular Developer",
+    "company": "FrontForge",
+    "skills_required": ["Angular", "RxJS", "TypeScript"],
+    "description": "Develop complex UIs using Angular and state management."
   },
   {
     "title": "Backend Developer",
     "company": "DataCorp",
-    "skills_required": ["Node.js", "MongoDB", "Express"]
+    "skills_required": ["Node.js", "Express", "MongoDB"],
+    "description": "Design backend APIs and manage MongoDB data stores."
   },
   {
-    "title": "AI Engineer",
-    "company": "AI Hub",
-    "skills_required": ["Python", "Machine Learning", "spaCy"]
+    "title": "Senior Backend Developer",
+    "company": "ScaleX",
+    "skills_required": ["Node.js", "PostgreSQL", "TypeORM", "Redis"],
+    "description": "Develop scalable microservices and caching layers."
   },
   {
-    "title": "Frontend Developer",
-    "company": "TechSoft",
-    "skills_required": ["React", "JavaScript", "HTML", "CSS"]
+    "title": "Java Developer",
+    "company": "SpringEdge",
+    "skills_required": ["Java", "Spring Boot", "Hibernate"],
+    "description": "Implement RESTful APIs using Spring framework."
   },
   {
-    "title": "Backend Developer",
-    "company": "DataCorp",
-    "skills_required": ["Node.js", "MongoDB", "Express"]
+    "title": "Python Backend Developer",
+    "company": "PyStack",
+    "skills_required": ["Python", "Flask", "PostgreSQL"],
+    "description": "Work on API layers and data management using Python."
   },
   {
-    "title": "AI Engineer",
-    "company": "AI Hub",
-    "skills_required": ["Python", "Machine Learning", "spaCy"]
+    "title": "Full Stack Developer",
+    "company": "DevHub",
+    "skills_required": ["React", "Node.js", "MongoDB"],
+    "description": "Build end-to-end web applications with MERN stack."
+  },
+  {
+    "title": "Junior Full Stack Developer",
+    "company": "WebWave",
+    "skills_required": ["JavaScript", "Express", "React", "SQL"],
+    "description": "Support the development of web applications on both client and server sides."
+  },
+  {
+    "title": "Full Stack Engineer",
+    "company": "SkyCoder",
+    "skills_required": ["Next.js", "NestJS", "Prisma"],
+    "description": "Develop scalable SaaS platforms with modern web frameworks."
+  },
+  {
+    "title": "MEAN Stack Developer",
+    "company": "TechFlow",
+    "skills_required": ["MongoDB", "Express", "Angular", "Node.js"],
+    "description": "Design and deploy applications using MEAN technologies."
+  },
+  {
+    "title": "DevOps Engineer",
+    "company": "CloudNova",
+    "skills_required": ["Docker", "Kubernetes", "CI/CD", "AWS"],
+    "description": "Automate infrastructure and deployment pipelines."
+  },
+  {
+    "title": "Cloud Engineer",
+    "company": "NimbusCloud",
+    "skills_required": ["AWS", "Terraform", "EC2", "S3"],
+    "description": "Manage cloud services and build scalable environments."
+  },
+  {
+    "title": "Site Reliability Engineer",
+    "company": "StackOps",
+    "skills_required": ["Prometheus", "Grafana", "Linux", "Kubernetes"],
+    "description": "Ensure availability and performance of production services."
+  },
+  {
+    "title": "Infrastructure Engineer",
+    "company": "InfraTech",
+    "skills_required": ["Azure", "CI/CD", "PowerShell"],
+    "description": "Maintain infrastructure as code using Azure pipelines."
+  },
+  {
+    "title": "Data Scientist",
+    "company": "InsightAI",
+    "skills_required": ["Python", "Pandas", "Scikit-learn"],
+    "description": "Analyze data trends and create ML models for business decisions."
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "company": "MLForge",
+    "skills_required": ["Python", "TensorFlow", "Keras"],
+    "description": "Build, train, and optimize deep learning models."
+  },
+  {
+    "title": "NLP Engineer",
+    "company": "LangMind",
+    "skills_required": ["spaCy", "Transformers", "Python"],
+    "description": "Develop language models for conversational AI systems."
+  },
+  {
+    "title": "AI Researcher",
+    "company": "ThinkDeep",
+    "skills_required": ["PyTorch", "Deep Learning", "Research"],
+    "description": "Research and prototype advanced machine learning techniques."
+  },
+  {
+    "title": "Flutter Developer",
+    "company": "AppNest",
+    "skills_required": ["Flutter", "Dart", "Firebase"],
+    "description": "Build cross-platform mobile applications for iOS and Android."
+  },
+  {
+    "title": "Android Developer",
+    "company": "DroidWorks",
+    "skills_required": ["Java", "Kotlin", "Android Studio"],
+    "description": "Create native Android apps and integrate with REST APIs."
+  },
+  {
+    "title": "iOS Developer",
+    "company": "iByte",
+    "skills_required": ["Swift", "iOS SDK", "Xcode"],
+    "description": "Develop and maintain iOS applications with Swift."
+  },
+  {
+    "title": "React Native Developer",
+    "company": "MobX",
+    "skills_required": ["React Native", "Redux", "JavaScript"],
+    "description": "Deliver hybrid apps using React Native for both platforms."
+  },
+  {
+    "title": "QA Engineer",
+    "company": "BugZero",
+    "skills_required": ["Selenium", "Test Automation", "JIRA"],
+    "description": "Automate regression tests and manage test plans."
+  },
+  {
+    "title": "Manual Tester",
+    "company": "QualityFirst",
+    "skills_required": ["Test Cases", "Bug Reporting", "JIRA"],
+    "description": "Perform manual tests and report detailed issues."
+  },
+  {
+    "title": "SDET",
+    "company": "AutoEdge",
+    "skills_required": ["Java", "Selenium", "CI/CD"],
+    "description": "Write automation tests integrated in CI pipelines."
+  },
+  {
+    "title": "Performance Tester",
+    "company": "LoadX",
+    "skills_required": ["JMeter", "Load Testing", "Monitoring"],
+    "description": "Ensure application performance under high loads."
+  },
+  {
+    "title": "UI Designer",
+    "company": "Designify",
+    "skills_required": ["Figma", "Sketch", "Adobe XD"],
+    "description": "Create visual components and design systems."
+  },
+  {
+    "title": "UX Researcher",
+    "company": "UserFirst",
+    "skills_required": ["User Interviews", "A/B Testing", "Journey Mapping"],
+    "description": "Gather user insights to guide design decisions."
+  },
+  {
+    "title": "Product Designer",
+    "company": "CreativeHive",
+    "skills_required": ["Wireframing", "Prototyping", "Design Systems"],
+    "description": "Design intuitive product interfaces and experiences."
+  },
+  {
+    "title": "Visual Designer",
+    "company": "LookFeel",
+    "skills_required": ["Photoshop", "Illustrator", "Branding"],
+    "description": "Create visuals and branding assets for web and mobile."
   }
 ]

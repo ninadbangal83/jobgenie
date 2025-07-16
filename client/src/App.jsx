@@ -6,6 +6,7 @@ import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import DashboardPage from './pages/DashboardPage';
 import ProfileCard from './components/user/ProfileCard';
+import AdminDashboard from './components/dashboard/AdminDashboard';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/home" element={<DashboardPage />} />
         <Route path="/profile" element={<ProfileCard />} />
+        <Route path="/admin" element={<AdminDashboard />} />
+
 
       </Routes>
     </Router>

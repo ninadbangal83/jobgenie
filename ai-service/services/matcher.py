@@ -15,4 +15,8 @@ def match_resume(resume_skills):
         score = cosine_similarity(tfidf[0:1], tfidf[1:2])[0][0]
         job_scores.append({**job, "match_score": round(score, 2)})
 
-    return sorted(job_scores, key=lambda x: x["match_score"], reverse=True)
+    # Filter jobs with score > 0.3
+    filtered = [job for job in job_scores if job["match_score"] > 0.3]
+
+    # Sort by match_score descending
+    return sorted(filtered, key=lambda x: x["match_score"], reverse=True)
