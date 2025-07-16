@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Frontend Developer",
+    "company": "TechSoft",
+    "skills_required": ["React", "JavaScript", "HTML", "CSS"]
+  },
+  {
+    "title": "Backend Developer",
+    "company": "DataCorp",
+    "skills_required": ["Node.js", "MongoDB", "Express"]
+  },
+  {
+    "title": "AI Engineer",
+    "company": "AI Hub",
+    "skills_required": ["Python", "Machine Learning", "spaCy"]
+  },
+  {
+    "title": "Frontend Developer",
+    "company": "TechSoft",
+    "skills_required": ["React", "JavaScript", "HTML", "CSS"]
+  },
+  {
+    "title": "Backend Developer",
+    "company": "DataCorp",
+    "skills_required": ["Node.js", "MongoDB", "Express"]
+  },
+  {
+    "title": "AI Engineer",
+    "company": "AI Hub",
+    "skills_required": ["Python", "Machine Learning", "spaCy"]
+  }
+]
